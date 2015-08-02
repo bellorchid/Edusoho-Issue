@@ -4,6 +4,6 @@
 * [Topxia](Topxia.md)
 * [UnitTest](Unittest.md)
 * [Issue收集](bug/README.md)
-  * [2015-07-28](bug/2015-07-28/QQ-bug.md)
+  * [2015-07-28](bug/20150728/QQbug.md)
 * [CookBook](CookBook/README.md)
   * [Gitbook安装](CookBook/HowToInstallGitbook.md)
