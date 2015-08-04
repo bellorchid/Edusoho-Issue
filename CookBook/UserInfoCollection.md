@@ -37,3 +37,9 @@ mysql> GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, CREATE TEMPORA
 > 推荐高性能的主机来安装Piwik，可以考虑使用官方提供的付费主机服务，[Piwik Host](http://piwik.org/hosting/).
 
 ###二、安装Piwik
+
+* 把nginx root目录定位到我们的Piwik根目录下，直接访问设定的域名，就可以根据提示来安装Piwik了。
+
+* 
+
+###四、SitesManager For Piwik
