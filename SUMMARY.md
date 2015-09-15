@@ -7,3 +7,4 @@
   * [2015-07-28](bug/20150728/QQbug.md)
 * [CookBook](CookBook/README.md)
   * [Gitbook安装](CookBook/HowToInstallGitbook.md)
+* [UPUPW一键安装包文档](CookBook/UPUPW.md)
