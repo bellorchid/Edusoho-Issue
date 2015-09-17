@@ -8,3 +8,4 @@
 * [CookBook](CookBook/README.md)
   * [Gitbook安装](CookBook/HowToInstallGitbook.md)
 * [UPUPW一键安装包文档](CookBook/UPUPW.md)
+* [一键试用问题汇总](CookBook/Edusoho-One-Trial.md)
