@@ -1,0 +1,3 @@
+```
+虽然在 PHP 中并不需要初始化变量，但进行初始化是个好习惯。 由于不存在声明语句，所以变量初始化过程应该直接赋值，例如： $str_demo=""; 未初始化变量的默认值 未初始化的变量被使用时，具有其类型的默认值：FALSE，零，空字符串或者空数组。 举例如下： <?php echo ($unset_bool? "true": "false"); // false $unset_int += 25; // 0 + 25 => 25 echo $unset_string . "abc"; // "" . "abc" => "abc" $unset_array[3] = "def"; // array() + array(3 => "def") => array(3 => "def") ?> 未初始化变量可能带来的问题 依赖未初始化变量的默认值在某些情况下会有问题，例如: 直接使用未定义变量可能会报错，比如这样的程序 <?php if($command!= "kkk") echo "not kkk"?> 可能会出现错误提示 <b>Notice:</b> Undefined variable: command in <b>X:\wamp\www\xxx.php</b> on line 1 以上程序的错误信息属于E_NOTICE级别，是否显示出来与php.ini中的错误级别设置有关。如果不想让这个警告出现，则可以在php.ini中进行改动，设 error_reporting = E_ALL & ~E_NOTICE 。
+```
